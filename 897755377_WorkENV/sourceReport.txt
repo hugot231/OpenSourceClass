@@ -1,0 +1,28 @@
+Name: Hugo Trejo 
+CWID: 897755377
+
+For this report we were asked to use Reg Ex to search and subsitute 
+text from a source file. I managed to accomplish this task by first
+searching and running through the text that we were were asked to
+replace. Using the "/" I was able to search for what were were asked
+to look for.  This allowed me to really see what was going to be replaced
+before I went ahead and replaced it. 
+1. This is what I used for the first
+one (:1,1499 s/<!--//g). By using the 1,1499 option, I am able to run 
+throught the whole file. I didnt include anything between the 2 "/" 
+because I was asked to remove and not replace. This is what i used for
+the second part (1,1499 s/-->//g). Similar to the first part, but instead
+was asked to search and substitue a different portion. 
+2. This is what I used for the second one. :1,1499 s/ms-homepage-small.mp4/my_own_medium.mp4/g
+This one is straight forward. I replaced the first part with the second part and used
+the global option.  
+3. For this option I went to the top of the page by using the 1G Enter 
+Then I used this expression :s/feb30292ffc8/mar091317_1919/ I didn't search and 
+replace through the whole file because you didn't state to change all instances. 
+
+4. For this problem I used :1,1499/[^/,][A-Za-z0-9-]*.com/Web_site_place_holder/g
+I ran through the whole file by using the range. I wanted to search and subtitute
+all words that included all capital letters, 
+lowercase letters, digits, dash, and period and ended with .com. 
+
+
