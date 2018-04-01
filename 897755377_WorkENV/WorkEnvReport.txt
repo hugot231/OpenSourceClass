@@ -1,0 +1,27 @@
+#This is the report for constructing my own portable Linux working environment.
+#First open an ssh connection to the school server
+$ssh 897755377@sshServer
+#Change directory to your CWID directory
+cd 897755377
+#Creating a base directory as "CWID_WorkENV"
+$mkdir 897755377_WorkENV
+#Create a sub directory as "Workspace" that contains all the project works
+$cd 897755377_WorkENV
+$mkdir Workspace
+#Create a text file inside of "Workspace" named MyFirstTxtFile containg a sttring "Real"
+$cd Workspace
+$ vi MyFirstTxtFile
+#Create a text file inside of "Worspace" named MySecondTxtFile containing a string "Slim Shady"
+$vi MySecondTxtFile
+#In the base directory, Create a soft link named "MyFirstSoftLink" and link it to MyFistTxtFile
+$cd ..
+$ln -s ./Workspace/MyFirstTxtFile MyFirstSoftLink
+#In the base directory, Create a hard link named "MyFirstHardLink" and link it to MySecondTxtFile
+$ln ./Workspace/MySecondTxtFile MyFirstHardLink
+#Create data archive via tar command and must be zipped
+$cd ..
+#within my CWID direcory
+$tar -czvf 897755377_WorkENV.tgz 897755377_WorkENV/
+#INSPECT file and make sure it matches the specifics
+
+
