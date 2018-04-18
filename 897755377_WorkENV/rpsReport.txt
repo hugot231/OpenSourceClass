@@ -1,0 +1,34 @@
+This is the Report for the BASH script to perform "Rock, Paper, and Scissors" game;
+[vm020706 Thu Apr 12 013:26:30 ~]$ 
+[897755377@vclvm030402 Thu Apr 12 13:31:39 ~]$
+
+For this assignemnt we were asked to make our first BASH script. I began with
+writing down the process of the game. At first I passed in an argument from
+the command line. That argument was either Paper, Scissors or Rock(I
+changed it to a while loop once my program was complete and working so that it
+can be a continuous game untiil the user decides not to play anymore by
+pressing q). Since i used a parameter value initially I did not have to use
+read, but only used userChoice=$1. The next step was to get a random value
+between 1 and 3. I found that getting a random number and modding it would get
+me a value of 0, 1, 2 thus by adding 1 to these numbers would get me 1, 2, or
+3. Since my user choice was not a number but characters, I created an array so
+that I could match the numbers 1, 2, 3 to Rock, Paper, Scissors. This allows
+for the comparison of the user choice with the random choice for the computer. 
+In order to find out who is the winner I wrote down the outcomes of the game
+based on all the user and computer input. I created if statements for when the
+user would be the winner first so that I would provide a smooth flow. Then I
+went on to include the if statemnents for when the computer wins. I went back
+and created the variables for winner and set it to a string mentioning who the
+winner was. This variable would change or not change, depending on every
+outcome of the if statements. The last part for creating the game was to
+output the timestamp, human input, computer input, and winner on a test file
+as the game play record. This was done by creating a variable for the
+directory, file and timestamp. I went through a lot of trouble with the
+timestamp because I kept getting errors with not putting the correct spacing
+and uppercase letters. Using mkdir -p "directory" I created the directory that
+would house all the game play record. Using echo "information" >> file, I was
+able to output the information required of us into the file that included the
+Title_Month_DayInteger_Day_Hour_Minute. By navigating into the direcotry of
+RPS_Month_Year you can see the amount of games that have been played. By
+viewing the files inside of the directory you can see the information about
+the games that were played. 

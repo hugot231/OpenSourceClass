@@ -1,0 +1,17 @@
+BEGIN {
+	FS=" " 
+	# variable to be compare column with to make the record invalid
+	validEntry = "placeholder" 
+	print "--Listed Sorted by Brand, Price, Mileage, Year--"
+}
+
+# if column 2 does not contain a valid entry complete this action
+# action will count the number of entries for each brand
+# validate the record and complete action based on validity
+$2 !~ validEntry && $3 ~ /^[0-9]+$/ && $5 ~ /^[0-9]+$/ && $4 ~ /^[0-9]+$/ {
+	print $0
+}
+
+END {
+	print "--End of List--"
+}	

@@ -1,0 +1,33 @@
+{\rtf1\ansi\ansicpg1252\cocoartf1504\cocoasubrtf830
+{\fonttbl\f0\fswiss\fcharset0 Helvetica;\f1\fnil\fcharset0 AndaleMono;}
+{\colortbl;\red255\green255\blue255;\red0\green0\blue0;}
+{\*\expandedcolortbl;;\csgenericrgb\c0\c0\c0;}
+\margl1440\margr1440\vieww12740\viewh13420\viewkind0
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f0\fs24 \cf2 Name: Hugo Trejo\
+CWID: 897755377\
+Lab: Generating Reports with AWK\
+\
+
+\f1 Report 1: In order to calculate each brand\'92s total entries, I decided that i would first need to check that each record was valid. In my BEGIN section I declared the FS variable as \'93 \'93 just to be safe. I also created a variable to hold the string \'93placeholder\'94 which would be matched too. By valid I mean that the record must have a brand name, model, year, mileage, and price. If the fields are not in proper format then the record is not valid. Thus, that record is not included in the count. The information requested will be printed in the END\{\} and it will be done using a for in loop using the array for which contained each brand count. The following is the command prompt: \CocoaLigature0  [897755377@vclvm030203Thu Apr 0516:45:46~]$ awk -f BrandEntryCountawk OriginalList.txt > BrandCount.txt \
+\
+Report2: For the second report I did about the same things except before i put my List through the awk program i piped the Original file through sort and used the -k flag to specify that i wanted the file sorted by car brand, price, mileage and then year. Once they were in order I was able to use the awk program to remove any invalid inputs in the file.\
+The following is the command prompt: [897755377@vclvm030203Thu Apr 0516:35:46~]$ sort -k1,1 -k5n -k4n -k3n OriginalList.txt | awk -f SortedListawk > sortedList.txt \
+
+\f0 \CocoaLigature1 \
+
+\f1 Report3:Since the price was what I needed to compare i sorted the Original list through the pipe and sorting only the 5th field. I also made sure that only valid values were kept through the pattern. The action was to check whether the value in field 5 was less than 1500  separated by || between 20000 and 65000, separated by || and greater then 100000 using an if statement. It only printed out the record if it was true.  
+\f0 \
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f1 \cf2 \CocoaLigature0 [897755377@vclvm030203Thu Apr 0517:40:15~]$ sort -k1,1 -k5 OriginalList.txt |awk -f IndicatedPriceListawk > IndicatedPriceList.txt\
+\pard\tx560\tx1120\tx1680\tx2240\tx2800\tx3360\tx3920\tx4480\tx5040\tx5600\tx6160\tx6720\pardirnatural\partightenfactor0
+
+\f0 \cf2 \CocoaLigature1 \
+\pard\tx720\tx1440\tx2160\tx2880\tx3600\tx4320\tx5040\tx5760\tx6480\tx7200\tx7920\tx8640\pardirnatural\partightenfactor0
+
+\f1 \cf2 Report4: for this one i used an equation to comp\cf0 are the sorted list price one by one and set that equal to the next price of the next car in the list. The first value is set as a max and min and then each value from there on is compared to it. I ran into an issue where i sorted using the sort command and flag -k but my min value was not outputting. I was comparing my min value with a min value of nothing, so it would never be lower then nothing, thus i ran it without the sort.
+\f0 \
+
+\f1 \cf2 \CocoaLigature0 [897755377@vclvm030203Thu Apr 0518:05:53~]$ awk -f MaxLeastPriceawk OriginalList.txt> MaxLeastPrice.txt}

@@ -1,0 +1,8 @@
+--Information for the Max, Min Price Brand--
+test
+test
+test
+test
+test
+test
+max=298000, min=8000

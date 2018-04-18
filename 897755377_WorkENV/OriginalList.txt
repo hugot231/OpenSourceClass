@@ -2,7 +2,7 @@ Honda	NSX	2001	9	98000
 Nissan 	placeholder
 Honda	Beat	1991	213	26212
 Subaru	Legacy	2004	122000	13400
-Honda	NSX-R	2001	15	298000
+honda	NSX-R	2001	15	298000
 Toyota	placeholder
 Subaru	WRXSTI	2006	77123	15589
 Nissan	Gloria	2009	87670	13122

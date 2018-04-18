@@ -1,0 +1,21 @@
+BEGIN {
+	FS=" " 
+	# variable to be compare column with to make the record invalid
+	validEntry = "placeholder" 
+	print "--Total Entries For Each Brand--"
+}
+
+# if column 2 does not contain a valid entry & fields 3,4,5 are in digit format
+# action will count the number of entries for each brand
+$2 !~ validEntry && $3 ~ /^[0-9]+$/ && $4 ~ /^[0-9]+$/ && $5 ~ /^[0-9]+$/ {
+	brandCount[$1]++
+}
+
+END {
+	# for each brand in BrandCount array print the total entries 
+	# brandCount[Brand] is the count of the brand
+	# Brand is the name of the brand
+	for (Brand in brandCount) {
+		print Brand,"has",brandCount[Brand], "entries."
+	}
+}

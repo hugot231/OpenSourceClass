@@ -1,0 +1,15 @@
+--List For Prices Specified--
+Honda Accord 1998 53200 13122
+Honda CRX 1995 53200 13122
+Honda Inspire 1995 79440 21442
+Honda S660 2015 65900 22337
+Honda Integra 2003 21300 23124
+Honda S2000 2003 65900 24212
+Honda Beat 1991 213 26212
+Honda NSX-R 2001 15 298000
+Nissan Gloria 2009 87670 13122
+Subaru Legacy 2004 122000 13400
+Suzuki Cappuccino 1997 32000 8000
+Toyota LandCruiser 2005 187670 13122
+Toyota Crown 1996 73112 8326
+--End of List--

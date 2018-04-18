@@ -1,0 +1,20 @@
+BEGIN {
+	FS=" " 
+	# variable to be compare column with to make the record invalid
+	validEntry = "placeholder" 
+	print "--List For Prices Specified--"
+}
+
+# if column 2 does not contain a valid entry complete this action
+# action will count the number of entries for each brand
+# validate the record and complete action based on validity
+$2 !~ validEntry && $3 ~ /^[0-9]+$/ && $5 ~ /^[0-9]+$/ && $4 ~ /^[0-9]+$/{
+
+	if ($5 < 15000 || ($5 > 20000 && $5 < 65000) || $5 > 100000){
+		print $1, $2, $3, $4, $5
+	}
+}
+
+END {
+	print "--End of List--"
+}

@@ -1,0 +1,7 @@
+--Total Entries For Each Brand--
+Suzuki : 1
+Honda : 9
+Subaru : 2
+Nissan : 2
+Mazda : 2
+Toyota : 4

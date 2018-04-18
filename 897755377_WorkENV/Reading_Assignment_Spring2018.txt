@@ -1,0 +1,69 @@
+This reading assignment is due on 10th of April, 2018!!
+Name: Hugo Trejo
+CWID: 897755377
+Reading assignment 
+1. Who started the GNU project? Linus Torvals was the creater of Linux, but
+the GNU project originally began in 184 by Richard Stallman.
+2. What is GNUs basic tenet and how is it different from proprietary commercial products? Richard stallman believed that knowledge
+	that constitutes a running program (source code) should be free. The basic tenet is that the souce code is fundamental to 
+	the furthering of computer science and freely available source code is is truly necessary for the inovation to continue.  
+3. What is GPL and what is its basic goal ? The GPL is the GNU General Public License. It was created to protect free software from 
+	being sold for profit, and to expand the information taken from the source code without restricting others to do the same.
+	It also allowed for progress innovation of new software and that software itself would be protected under the GPL.
+4. Who invented Graphical User Interface ? Xerox PARC, an Industry driven
+	company invented the GUI as well as the ethernet mouse. 
+5. How does Open Source business operate ? Open Source business operates by
+	allowing anyone to use and distribute the code freely, thus making it easier
+	to create a Linux system. By doing so, the distributor can charge for
+	services for their distribution. 
+6. Describe open source business model ? An example would be that that of Red
+Hat Linux. Packaging its full distribution with a nice manual. The reading uses the word brand
+	marketing to primarily sell convenience, because no one really wants
+	to download all the pieces that make up a full-featured Linux system. It
+	allows companies to charge for the distribution, but what makes some companies
+	better is that they support the development of new software and redistribute
+	it back into the community at large as Open source. An old-fashioned model was
+	to supply support for the distributions they were offering. 
+7. What is BIND ? What is its common name ? BIND or Berkley Internet Network Domain is a program used to create a
+practical monopoly. The program is able to convert addressess in the form of a URL into their actual IP address. 
+8. What is the advantage of open source development model ? One advantage of Open Source is the ability to look at 
+	it as a business opportunity for such companies like IBM, and Oracle because of the ability to innovate. Like, science
+	Open Source rests on a process of discovery and justification. In order to justify that something is valid, it must be
+	replicated. Similarly, in order to replicate the workings of source  code, it must be shared for testing on different systems
+	and compilers. 
+9. What makes the best innovators ? The best innovators are those that learn from their mistakes, but the flourishing creativity that 
+	leads to creativity comes at a cost. 
+10. According to the reading material, what is the first open source example ? The first open source example according to the reading 
+	 
+11. The author described that there is another science that follows the methodology of open source, what is this science and why ? The 
+	science of biology follows the science of open source. It is because in order to have proof that something works it must be tested
+	by others for validity. It must be redistributed as a form of knowledge to build upon.  
+12. What is a Hacker according to the author and where did the terminology come from ? The hacker which can be dated back to 1961 became 
+	the term for MIT's Tech Model Railroad club. The TMRC's hackers became the nucleas of MIT's AI Laboratory. They were a group of 
+	people from the Signals and Power Committe and then became a group of computer scientists from multiple Universities working on 
+	the PDP-10.  
+13. Who invented Unix ? A hacker from Bell Labs named Ken Thompson invented Unix in 1969.  
+14. Who invented C? Another hacker named Dennis Richie invented C. 
+15. What is KISS? According to the reading, it means "Keep It Simple, Stupid" and it is a philosphy that was used to create Unix and C. 
+16. Which government agency participated the research of computer network ? The Department of Defense was a contributor to the research of
+	computer nextwork.
+17. What is the lawsuit between BSDI and AT&T about ? What is the outcome of it ? It was a lawsuit that alleged that the University of
+	 Caliornia Berkley violated Unix System Laborities software license by distributing it, and copyright on UNIX. Code had been realeased
+	that was based on the UNIX system, and thus BSDi knowing this violated the terms. USL felt threatened and came back with a lawsuit.
+	The outcome was that many people were hessitant to use the software because of the lawsuit. During that time the publicity behind it 
+	allowed Linux to gain an edge over everyone else. 
+18. What is the definition of free software according to the author ? The ability to port and use a program from someone else, see the source code 
+	so that you could read it, or change parts of it to to make a new program is what the author called free software. 
+19. What is the definition of CopyLeft? It is a term used to prevent GNU software from becoming proprietary softare, or a means of keeping it free.
+20. What is the future challenges of Free Software ?  
+21. What is the difference between Unix and Linux ? Unix is a mostly C based portable, pleasant, unconstraining and flexible software environment
+	while Linux full-featured Unix using the Free Software Foundation toolkit with entirely free and redistributable sources.  
+22. What is the definition of open source for Derived Works ? It means that in order to repair or modify a program the source code needs to be 
+	destributed with the initial work as well as any code that has been created using the initial source code.
+23. What is the definition of Public Domain? A public domanin is a program that can be considered your own. You can take it as do as you please 
+	with it. You can remove any information and modify it as you may without having to consent to any license. 
+24. What does the term Free the lizard referred to ? Mozilla was the mascot for the now disbanded Netscape Communication Corporation. Freeing the 
+	lizard refers to the releaes of the souce code by the members of Mozilla.org.
+25. What happen on April Fools Day, 1998? The release of Mozilla. The Mozila Dot Party was planned and attended by the huge community of programmers. They gave
+	away source code to many and had a live band. 
+[897755377@vclvm030101Mon Apr 0921:39:14~]$ 
